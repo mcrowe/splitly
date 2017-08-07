@@ -3,7 +3,7 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "lib/",
-    "target": "es2015",
+    "target": "es5",
     "noImplicitAny": false,
     "strictNullChecks": true
   },

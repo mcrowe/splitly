@@ -1,6 +1,6 @@
-# package_name
+# Splitly
 
-package_description
+Deterministic split tests for Javascript and Typescript.
 
 ## Usage
 

@@ -1,10 +1,10 @@
 {
-  "name": "@mcrowe/package_name",
-  "version": "0.0.0",
-  "description": "package_description",
+  "name": "@mcrowe/splitly",
+  "version": "0.1.0",
+  "description": "Deterministic split tests for Javascript and Typescript.",
   "author": "Mitch Crowe <code@mitchcrowe.com> (http://www.mitchcrowe.com)",
   "license": "ISC",
-  "repository": "https://github.com/mcrowe/package_name",
+  "repository": "https://github.com/mcrowe/splitly",
   "scripts": {
     "test": "mocha -u qunit --recursive -r ./node_modules/ts-node/register test/*",
     "build": "tsc",
@@ -21,5 +21,8 @@
     "mocha": "^3.4.2",
     "ts-node": "^3.1.0",
     "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "md5": "^2.2.1"
   }
 }
